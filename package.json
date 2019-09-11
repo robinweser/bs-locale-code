@@ -1,0 +1,28 @@
+{
+  "name": "bs-locale-code",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "bsconfig.json",
+    "src/**"
+  ],
+  "scripts": {
+    "clean": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "watch": "bsb -make-world -w"
+  },
+  "license": "MIT",
+  "author": "Robin Weser <contact@weser.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robinweser/bs-locale-code"
+  },
+  "peerDependencies": {
+    "locale-code": "^2.x.x"
+  },
+  "dependencies": {
+    "bs-platform": "^5.0.6"
+  }
+}
