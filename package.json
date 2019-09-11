@@ -1,12 +1,13 @@
 {
   "name": "bs-locale-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "access": "public"
   },
   "files": [
     "bsconfig.json",
-    "src/**"
+    "src/**",
+    "lib/**"
   ],
   "scripts": {
     "clean": "bsb -clean-world",

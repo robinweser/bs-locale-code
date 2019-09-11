@@ -1,17 +1,10 @@
 {
   "name": "bs-locale-code",
-  "version": "0.2.0",
   "sources": [
     {
-      "dir": "src",
-      "subdirs": true
+      "dir": "src"
     }
   ],
-  "package-specs": {
-    "module": "es6",
-    "in-source": true
-  },
-  "suffix": ".bs.js",
   "bs-dependencies": [],
   "warnings": {
     "error": "+101"
